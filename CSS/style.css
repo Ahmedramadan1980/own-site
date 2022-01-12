@@ -55,7 +55,7 @@ body{
     font-size: 120%;
     color: firebrick;
     position: relative;
-    top: 140px; left: 55px;
+    top: 140px; left: 75px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
 }
@@ -191,8 +191,8 @@ body{
      background-image:url(../background.png); background-size: 1500px 1500px;
  }
   .about-me1{
-      width: 100px;
-      margin: 0px;
+      width: 150px;
+      margin-top: 0px;
       border-color: tomato;
       border-width: 1px;
       border-radius: 75%;
