@@ -1,27 +1,28 @@
 body{
-    background-image:url(../background.png); background-size: cover;
+    background-image:url(../background.png); 
+    background-size:cover;
+    background-attachment: fixed;
 }
 
 /*Index.html*/
-.EM-pic{
-    position: absolute;
-    left: 270px;
-    top: 200px;
-    border-radius: 95%;
-}
+
 .my-pic{
-    width: 100px;
+    display: block;
+    width: 35%;
     float:left;
-    margin-right: 20px;
+    margin-right: 2%;
 }
 .intro1{
-    width: 850px;
+    display: block;
+    width: 20%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 150%;
+    font-size: 100%;
     color: blueviolet;
     font-weight: bold;
+    text-align: center;
 }
 .name{
+    display: block;
     margin: 0 auto 0 auto;
    font-family: 'The Nautigal', cursive;
    color: brown;
@@ -31,12 +32,12 @@ body{
     font-size: small;
 }
 .about-pic{
-    position: absolute;
-    height: 100px;
-    top: 150px;
-    left: 60px;
+    margin-top: 2.5%;
+    margin-left: 7.5%;
+    width: 8%;
     border-radius: 50%;
     background-color: cornflowerblue;
+    display: block;
 }
 .about-pic:hover {
     border: solid #DD380D 1px;
@@ -52,18 +53,18 @@ body{
     text-decoration: none;
  }
 .about-txt{
+    display: block;
     font-size: 120%;
     color: firebrick;
-    position: relative;
-    top: 140px; left: 55px;
+    margin-top: 0%;
+    margin-left: 8%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
 }
 .contact-pic{
-    position: absolute;
-    height: 100px;
-    top: 300px;
-    left: 150px;
+    width: 8%;
+    display: block;
+    margin-left: 10%;
     border-radius: 50%;
     background-color: cornflowerblue;
 }
@@ -81,76 +82,141 @@ body{
     text-decoration: none;
  }
 .contact-txt{
+    display: block;
     font-size: 120%;
     color: firebrick;
-    position: relative;
-    top: 250px; left: 155px;
+    margin-left: 11%;
+    margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
 }
 .topics-pic{
-    position: absolute;
-    height: 100px;
-    top: 400px;
-    left: 300px;
+    width: 8%;
+    display: block;
+    margin-left: 22%;
+    margin-top: -3%;
     border-radius: 50%;
     background-color: cornflowerblue;
 }
+.topics-pic:hover {
+    border: solid #DD380D 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1ed04a, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1ed062, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1ed068, #3D94F6);
+    background-image: -o-linear-gradient(top, #1ed07d, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1ed04a, #3D94F6);
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+    text-decoration: none;
+ }
 .topics-txt{
+    display: block;
     font-size: 120%;
     color: firebrick;
-    position: relative;
-    top: 310px; left: 310px;
+    margin-left: 23.5%;
+    margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
 }
 .procedures-pic{
-    position: absolute;
-    height: 100px;
-    top: 400px;
-    left: 500px;
+    width: 8%;
+    display: block;
+    margin-left: 37%;
+    margin-top: -11.5%;
     border-radius: 50%;
     background-color: cornflowerblue;
 }
+.procedures-pic:hover {
+    border: solid #DD380D 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1ed04a, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1ed062, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1ed068, #3D94F6);
+    background-image: -o-linear-gradient(top, #1ed07d, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1ed04a, #3D94F6);
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+    text-decoration: none;
+ }
 .procedures-txt{
+    display: block;
     font-size: 120%;
     color: firebrick;
-    position: relative;
-    top: 265px; left: 480px;
+    margin-left: 37%;
+    margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
 }
 .clinical-pic{
-    position: absolute;
-    height: 100px;
-    top: 300px;
-    left: 650px;
+    width: 8%;
+    display: block;
+    margin-left: 48%;
+    margin-top: -20%;
     border-radius: 50%;
     background-color: cornflowerblue;
 }
+.clinical-pic:hover {
+    border: solid #DD380D 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1ed04a, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1ed062, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1ed068, #3D94F6);
+    background-image: -o-linear-gradient(top, #1ed07d, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1ed04a, #3D94F6);
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+    text-decoration: none;
+ }
 .clinical-txt{
+    display: block;
     font-size: 120%;
     color: firebrick;
-    position: relative;
-    top: 130px; left: 630px;
+    margin-left: 47%;
+    margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
 }
 .radio-pic{
-    position: absolute;
-    height: 100px;
-    top: 150px;
-    left: 680px;
+    display: block;
+    width: 13%;
+    height: 15%;
+    margin-top: -22%;
+    margin-left: 52%;
     border-radius: 50%;
     background-color: cornflowerblue;
 }
+.radio-pic:hover {
+    border: solid #DD380D 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1ed04a, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1ed062, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1ed068, #3D94F6);
+    background-image: -o-linear-gradient(top, #1ed07d, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1ed04a, #3D94F6);
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+    text-decoration: none;
+ }
 .radio-txt{
     font-size: 120%;
     color: firebrick;
-    position: relative;
-    top: -70px; left: 690px;
+    display: block;
+    margin-left: 54%;
+    margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 150px;
+}
+.EM-pic{
+    width: 30%;
+    display: block;
+    margin-left: 19%;
+    margin-top: -12%;
+    border-radius: 100%;
 }
 
 /* Contact.html */
@@ -186,10 +252,6 @@ body{
      margin-top: 50px;
      color: cadetblue;
  }
- .aboutme{
-     text-align: left;
-     background-image:url(../background.png); background-size: 1500px 1500px;
- }
   .about-me1{
       width: 100px;
       margin-top: 0px;
@@ -209,18 +271,18 @@ body{
       background-color: rgb(244, 246, 247);
       width: 70%;
       text-align: center;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-right: 30px;
-      margin-left: 50px;
-      margin-top: 50px;
+      padding-top: 1%;
+      padding-bottom: 2%;
+      padding-right: 0.5%;
+      margin-left: 4%;
+      margin-top: 4%;
       border-style: dotted;
       border-color: lightcoral;
       border-radius: 10%;
   }
   .edu-pic{
     width: 100px;
-    margin-right: 430px;
+    margin-right: 35%;
     margin-top: 50px;
     border-color: tomato;
     border-width: 1px;
@@ -237,9 +299,8 @@ body{
     color: black;
     background-color: rgb(244, 246, 247);
     width: 50%;
-    text-align: center;
-    margin: 50px 0px 10px 170px;
-    padding-left: 10px;
+    margin: 4% 0px 0px 10%;
+    padding-left: 1%;
     border-style: dotted;
     border-color: lightcoral;
     border-radius: 10%;
@@ -262,19 +323,19 @@ body{
 .job-txt{
     color: black;
     background-color: rgb(244, 246, 247);
-    width: 55%;
-    margin: 50px 0px 0px 50px;
-    padding-left: 105px;
-    padding-right: 30px;
+    width: 50%;
+    margin: 3% 0px 0px 7%;
+    padding-left: 5%;
+    padding-right: 1%;
     border-style: dotted;
     border-color: lightcoral;
     border-radius: 10%;
     text-align: justify;
 }
 .skill-pic{
-    width: 300px;
-    margin-right: 430px;
-    margin-top: 150px;
+    width: 24%;
+    margin-right: 30%;
+    margin-top: 11%;
     border-color: tomato;
     border-width: 1px;
     border-radius: 75%;
@@ -290,8 +351,8 @@ body{
     color: black;
     background-color: rgb(244, 246, 247);
     width: 55%;
-    margin: 50px 0px 0px 50px;
-    padding-left:40px;
+    margin: 5% 0px 0px 1%;
+    padding-left:3%;
     border-style: dotted;
     border-color: lightcoral;
     border-radius: 10%;
